@@ -11,14 +11,14 @@
         <%= f.email_field :email, class: 'form-control' %>
       </div>
       <div class='form-group'>
-        <%= f.label :password_confirmation %>
-        <%= f.password_field :password_confirmation, class: 'form-control' %>
-      </div>
-      <div class='form-group'>
         <%= f.label :password %>
         <%= f.password_field :password, class: 'form-control' %>
       </div>
-      <label><a href="/users/sign-in"><ab>Sign in</ab></a></label></br>
+      <div class='form-group'>
+        <%= f.label :password_confirmation %>
+        <%= f.password_field :password_confirmation, class: 'form-control' %>
+      </div>
+      <label><a href="/user/sign-in"><ab>Sign in</ab></a></label></br>
       <%= f.submit 'Sign up', class: 'btn btn-primary' %>
     <% end %>
   </div>
