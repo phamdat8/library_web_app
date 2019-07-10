@@ -16,7 +16,10 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+# Sửa lỗi conflict GEM trên github
 Gemfile
+Gemfile.lock
+
 # Ignore Byebug command history file.
 .byebug_history
 config/database.yml
